@@ -1,5 +1,7 @@
-'''This module sends email message asking adreesses, subject and text message from user. Smtp connection is configured to smtp.mail.ru. So, you should use mail.ru account.
+'''This module sends email message asking adreesses, subject and text message from user.
+Smtp connection is configured to smtp.mail.ru. So, you should use mail.ru account.
 '''
+
 import smtplib
 from email.mime.text import MIMEText
 
